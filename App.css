@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #b88b4a, #7a5c3a);
+  color: #fdf6ec;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ffecd1;
+  margin-bottom: 1rem;
+}
+
+.valor {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #fff3e4;
+}
+
+.valor span {
+  color: #ffe1a8;
+  font-weight: 600;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.btn {
+  width: 120px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #fff;
+}
+
+
+.aumentar {
+  background-color: #a47e3b; 
+.aumentar:hover {
+  background-color: #8c682f;
+}
+
+.diminuir {
+  background-color: #b35c2e; 
+}
+.diminuir:hover {
+  background-color: #994b24;
+}
+
+.zerar {
+  background-color: #70543e; 
+}
+.zerar:hover {
+  background-color: #5a4232;
+}
+}
